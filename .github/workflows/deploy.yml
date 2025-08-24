@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main  # O workflow será acionado quando houver um push na branch main
+  workflow_dispatch:
 
 jobs:
   terraform:
